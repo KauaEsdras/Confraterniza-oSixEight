@@ -1,4 +1,127 @@
 * {
+/*Typography stuff*/
+    font-family: "Exo 2", sans-serif;
+    color: #ffffff;
+/*Miscellaneous*/
+    box-sizing: border-box;
+}
+
+body {
+/*Display stuff*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*Box model stuff*/
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    background-image: url(./0404aeb8-8f06-428c-90c4-ebab719cc356.png);
+}
+
+.container {
+/*Box model stuff*/
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+/*Miscellaneous*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+/*Display stuff*/
+    display: flex;
+    justify-content: center;
+/*Box model stuff*/
+    margin-bottom: 20px;
+}
+
+#logosix {
+/*Box model stuff*/
+    width: 50px; /* Aumente ou diminua o tamanho conforme necessário */
+    width: 50px; /* Aumente ou diminua o tamanho conforme necessário */
+/*Miscellaneous*/
+    width: 50px; /* Aumente ou diminua o tamanho conforme necessário */
+    width: 50px; /* Aumente ou diminua o tamanho conforme necessário */
+}
+
+h2 {
+/*Box model stuff*/
+    margin-bottom: 20px;
+/*Typography stuff*/
+    text-align: center;
+    color: #fff;
+}
+
+.form-group {
+/*Box model stuff*/
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+/*Display stuff*/
+    display: block;
+/*Box model stuff*/
+    margin-bottom: 5px;
+/*Typography stuff*/
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"] {
+/*Box model stuff*/
+    width: 100%; /* Ajusta para ocupar todo o espaço */
+    width: 100%; /* Ajusta para ocupar todo o espaço */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+/*Typography stuff*/
+    font-size: 16px;
+    text-align: left;
+    color: #000;
+/*Miscellaneous*/
+    width: 100%; /* Ajusta para ocupar todo o espaço */
+    width: 100%; /* Ajusta para ocupar todo o espaço */
+}
+
+.hidden {
+/*Display stuff*/
+    display: none;
+}
+
+button {
+/*Box model stuff*/
+    width: 100%; /* Largura completa do botão */
+    width: 100%; /* Largura completa do botão */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00f284;
+/*Typography stuff*/
+    text-align: center;
+    color: white;
+/*Miscellaneous*/
+    cursor: pointer;
+    width: 100%; /* Largura completa do botão */
+    width: 100%; /* Largura completa do botão */
+}
+
+button:hover {
+/*Box model stuff*/
+    background-color: #00b262;
+}
+
+#enviar {
+/*Display stuff*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+* {
     font-family: "Exo 2", sans-serif;
     color: #ffffff;
     box-sizing: border-box;
@@ -88,6 +211,16 @@ button:hover {
     align-items: center;
 }
 
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+.whatsapp-button img {
+    width: 50px;
+    height: 50px;
+}
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
